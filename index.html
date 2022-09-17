@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>itz RG</title>
+
+   <!-- HTML -->
+
+
+   <!-- Custom Styles -->
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+   <header>
+      <div class="hedd">
+         <div class="contas">
+            <div class="imgfheder">
+               <img src="/chimg1.jpg">
+            </div>
+            <div class="heding">
+               <br>
+               <h1> itz RG </h1>
+               <div class="rightbottomper">
+                  <p> Gameing Chanel </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="hrr">
+      <hr width="90%" color="#fff" id="hr1">
+      <h1 id="hrm"> games i play</h1>
+      <hr width="90%" color="#fff" id="hr2">
+   </div>
+
+   <section class="gtav">
+      <div class="mcom">
+         <div class="image">
+            <img src="/gta-v.jpg">
+         </div>
+         <div class="textt">
+            <h1> GTV-V</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis distinctio, temporibus consequuntur eveniet, quibusdam assumenda quaerat at quidem quia consequatur sint autem, voluptate, nemo ad. Laudantium dolorum repellat at sed iusto quasi sit omnis.</p>
+            
+         </div>
+      </div>
+   </section>
+   <br>
+   <br>
+   <br>
+   <section class="gtav">
+      <div class="mcom">
+         <div class="image-a">
+            <img src="/apex.jpg">
+         </div>
+         <div class="textt-a">
+            <h1> Apex legends</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis distinctio, temporibus consequuntur eveniet, quibusdam assumenda quaerat at quidem quia consequatur sint autem, voluptate, nemo ad. Laudantium dolorum repellat at sed iusto quasi sit omnis.</p>
+            
+         </div>
+      </div>
+   </section>
+   <br>
+   <br>
+   <br>
+   <section class="gtav">
+      <div class="mcom">
+         <div class="image">
+            <img src="/cod.png">
+         </div>
+         <div class="textt">
+            <h1> call of duty </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis distinctio, temporibus consequuntur eveniet, quibusdam assumenda quaerat at quidem quia consequatur sint autem, voluptate, nemo ad. Laudantium dolorum repellat at sed iusto quasi sit omnis.</p>
+            
+         </div>
+      </div>
+   </section>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <div class="hrr">
+      <hr width="90%" color="#fff" id="hr12">
+   </div>
+   
+   <br>
+   <br>
+   <br>
+</body>
+<script>
+   ScrollReveal({
+      reset: true,
+      distance: '150px',
+      duration: 1200,
+      delay: 40
+   });
+   ScrollReveal().reveal('.hedd .contas .imgfheder img', { delay: 200, origin: 'top' });
+   ScrollReveal().reveal('.hedd .contas .heding h1', { delay: 700, origin: 'left' });
+   ScrollReveal().reveal('.hedd .contas .heding p', { delay: 1200, origin: 'right' });
+   //. hr 1 
+   ScrollReveal().reveal('#hr12', { delay: 3200, origin: 'bottom', distance: '300px' });
+   // hr 2
+   ScrollReveal().reveal('#hr1', { delay: 1700, origin: 'left' });
+   ScrollReveal().reveal('#hrm', { delay: 1700, origin: 'right', interval: 100 });
+   ScrollReveal().reveal('#hr2', { delay: 1700, origin: 'left' });
+   // gta-v
+   ScrollReveal().reveal('section .mcom .textt', { delay: 2200, origin: 'right' });
+   ScrollReveal().reveal('section .mcom .image img', { delay: 2700, origin: 'left' });
+   // apex
+   ScrollReveal().reveal('section .mcom .textt-a', { delay: 2200, origin: 'left' });
+   ScrollReveal().reveal('section .mcom .image-a img', { delay: 2700, origin: 'right' });
+</script>
+
+</html>
